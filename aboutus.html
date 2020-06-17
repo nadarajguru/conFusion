@@ -7,6 +7,7 @@
       content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
     />
     <meta http-equiv="x-ua-compatible" content="ie-edge" />
+    <!-- build:css css/main.css -->
     <link
       rel="stylesheet"
       href="node_modules/bootstrap/dist/css/bootstrap.min.css"
@@ -21,6 +22,7 @@
     />
 
     <link rel="stylesheet" href="css/styles.css" />
+    <!-- endbuild -->
     <title>Meat-n-Fish Corner</title>
   </head>
 
@@ -538,14 +540,12 @@
         </div>
       </div>
 
+      <!-- build:js js/main.js -->
       <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
       <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
       <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-      <script>
-        $(document).ready(function () {
-          $('[data-toggle="tooltip"]').tooltip();
-        });
-      </script>
+      <script src="js/scripts.js"></script>
+      <!-- endbuild -->
     </footer>
   </body>
 </html>
